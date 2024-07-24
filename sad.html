@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sad</title>
+    <link rel = 'stylesheet' href="style.css" />
+</head>
+
+<body class="sadPage">
+
+<nav class="navbar"> 
+
+    <ul>
+        <li><a><h3>Flow.</h3></a></li>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='moods.html'>Moods</a></li>
+        <li><a href='aboutUs.html'>About Us</a></li>
+
+    </ul>
+</nav>
+
+<main>
+    <h2>You are feeling sad today.</h2> <br>
+    <center>
+        <button id="gobackBTN"><a href="moods.html">Go Back</a></button>
+    </center>
+
+    <br>
+
+    <center>
+        <form id="rantForm">
+            <div>
+                <label for="rant">Rant about your day, we care</label>
+                <br>
+                <textarea placeholder="Tell us more" id="rant" name="rant" rows="4" cols="50"></textarea>
+                <br><br>
+                <input type="reset" value="Release" class="reset-button" onclick="showPopup()">
+            </div>
+        </form>
+    </center>
+</main>
+
+<script>
+    function showPopup() {
+        alert("Thank you for sharing. Remember, you're not alone.");
+    }
+</script>
+
+</body>
+</html>

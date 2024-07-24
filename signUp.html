@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src ='script.js'></script>
+
+</head>
+<body class="signUpPage">
+    <nav class="navbar"> 
+
+
+        <ul>
+            <li><a><h3>Flow.</h3></a></li>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='moods.html'>Moods</a></li>
+            <li><a href='aboutUs.html'>About Us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <form id="registrationForm">
+        <h1>Sign Up</h1>
+
+        <div class="input-control">
+     
+            <label for='username'>Username:</label>
+            <input type="text" placeholder='pinknarwhal7' id="username" name="username" required>
+            <div class="error"></div>
+        </div>
+
+
+        <div class="input-control">
+            <label for="email">Email:</label>
+            <input type="email" placeholder='pinknarwhal@gmail.com' id="email" name="email" required>
+         
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="password">Password:</label>
+            <input type="password" placeholder='password123' id="password" name="password" required>
+         
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" placeholder='password123'  id="confirm_password" name="confirm_password" required>
+            <div class="error"></div>
+        </div>
+        <button type="submit" id="submitUser">Sign Up</button> 
+
+    </form>
+
+   <center> <p>Already have an account?<a href='logIn.html'><button id="logInbtn">Log In.</button> </a>
+      
+   </center>
+
+   
+</body>
+</html>
