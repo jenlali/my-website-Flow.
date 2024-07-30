@@ -48,8 +48,8 @@
 }
 
 #gobackBTN {
-    background-color: rgb(255, 237, 255);
-    
+    background-color: rgb(255, 213, 255);
+
     width: 115px;  /* Set a fixed width */
     height: 35px; /* Set a fixed height */
     border-radius: 1000px; /* Make the button round */
@@ -58,14 +58,18 @@
     line-height: 15px; /* Center text vertically */
     font-size: 15px; /* Optional: Adjust font size */
     cursor: pointer; /* Optional: Change cursor on hover */
+   
+    
+
 }
 #gobackBTN a {
     text-decoration: none; /* Remove underline */
     background-color: inherit; /* Inherit the color from the button */
+    color: white;
   
 }
 #gobackBTN:hover {
-   background-color: rgb(231, 216, 231);;
+   background-color: rgb(222, 166, 215);;
   
 }
 
@@ -93,11 +97,14 @@ body{
 main{
     margin-left:20px;
     margin-right:20px;
+    align-items: center;
+    justify-content: center;
+
 }
 h1{
     text-align: center; /*centers h1 titles*/
-    background-color: rgb(255, 255, 255);
-    margin-top: 0px;
+ 
+    margin-top: 20px;
     margin-bottom: 0px;
 
 }
@@ -137,9 +144,8 @@ h1{
 }
 
 .navbar a:hover{
-    background-color: rgb(255, 150, 218);
-
-    color: rgb(241, 217, 255);
+    background-color:  rgb(255, 213, 255);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -218,7 +224,7 @@ html, body {
 }
 
 .signUpPage {
-    background: rgb(255, 233, 255); /* Change this to your desired color */
+    background: rgb(255, 255, 255); /* Change this to your desired color */
    
    
 }
@@ -253,7 +259,7 @@ html, body {
     width: 100%;
     border-radius: 10px;
     color:rgb(39, 33, 33);
-    background-color:rgb(255, 209, 253);
+    background-color: rgb(255, 213, 255);
     border: none; 
 
     
@@ -363,13 +369,14 @@ html, body {
  
     background-color: rgba(255, 247, 254, 0.87);
     
+    
   
 }
 
 #slogan {
     z-index: 100;
     position: absolute;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 17px;
     left: 50%;
     transform: translateX(-50%);
@@ -395,11 +402,13 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #FFC0CB; /* Light pink background */
-}
+    background-color:  rgba(255, 255, 255, 0.87); /* Light pink background */
+  }
+
+
 
 .navbar {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -423,14 +432,19 @@ html, body {
 
 .hero-section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 50px 20px;
-    height: calc(100vh - 60px);
+    flex: 1; /* Make the section take up the remaining space */
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hero-content {
     max-width: 600px;
+    align-items: center;
 }
 
 .hero-content h1 {
@@ -438,6 +452,7 @@ html, body {
     margin: 0 0 20px;
     font-weight: bold;
     color: #333;
+    align-items: center;
 }
 
 .hero-content p {
@@ -445,6 +460,8 @@ html, body {
     line-height: 1.5;
     margin-bottom: 20px;
     color: #555;
+    align-items: center;
+    text-align: center;
 }
 
 .cta-button {
@@ -452,9 +469,9 @@ html, body {
     padding: 10px 20px;
     font-size: 1em;
     color: white;
-    background-color: #ff69b4;
+    background-color: rgb(255, 213, 255);
     border: none;
-    border-radius: 5px;
+    border-radius:  100px;
     cursor: pointer;
     text-decoration: none;
 }
